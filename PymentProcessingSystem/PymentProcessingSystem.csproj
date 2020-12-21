@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PaymentFactory\Book.cs" />
+    <Compile Include="PaymentFactory\Constants.cs" />
+    <Compile Include="PaymentFactory\GeneratePaymentFactory.cs" />
+    <Compile Include="PaymentFactory\IMembershipPaymentType.cs" />
+    <Compile Include="PaymentFactory\IPaymentAction.cs" />
+    <Compile Include="PaymentFactory\Membership.cs" />
+    <Compile Include="PaymentFactory\NewMemberShip.cs" />
+    <Compile Include="PaymentFactory\PhysicalProduct.cs" />
+    <Compile Include="PaymentFactory\UpgardeMembership.cs" />
+    <Compile Include="PaymentFactory\Video.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

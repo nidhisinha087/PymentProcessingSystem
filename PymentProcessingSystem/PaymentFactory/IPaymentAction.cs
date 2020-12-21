@@ -3,15 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static PymentProcessingSystem.PaymentFactory.Constants;
 
 namespace PymentProcessingSystem
 {
-    class Program
+   public interface IPaymentAction 
     {
-        
-        static void Main(string[] args)
-        {
-        }
+        void PaymentAction();
     }
 }
